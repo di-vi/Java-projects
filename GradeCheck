@@ -1,0 +1,38 @@
+package myjava;
+
+import java.util.Scanner;
+
+public class GradeCheck {
+
+	public static void main(String[] args) {
+		
+		
+		
+		// TODO Auto-generated method stub
+		
+		System.out.println("Enter marks: ");
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int mark = sc.nextInt();
+		
+		if(mark <= 70)
+		
+			System.out.println("Better luck next time");
+			
+			else if(mark <= 80)
+			
+				System.out.println("Good");
+				
+				else if(mark <= 90 && mark >= 80)
+					
+			
+					System.out.println("Better");
+			
+			
+		
+		
+	
+	}
+
+}
