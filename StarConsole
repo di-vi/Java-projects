@@ -1,0 +1,21 @@
+package myjava;
+
+public class StarConsole {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+			int i,a;
+			
+			for( i=10;i>=0;i--)
+			{
+				for(a=10;a>=i;a--)
+				{
+					System.out.print("*");
+				}
+				System.out.println();
+			}
+
+	}
+
+}
