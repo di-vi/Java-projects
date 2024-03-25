@@ -1,0 +1,26 @@
+package myjava;
+
+import java.util.Scanner;
+
+public class PositiveNegative {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Enter a number: ");
+		Scanner sca = new Scanner(System.in);
+		int s = sca.nextInt();
+		if(s==0)
+		{
+			System.out.println("Number is zero");
+		}
+			else if(s<=0)
+			{
+			 System.out.println("Number is negative");
+			}
+			 else if(s>=0)
+			 {
+				 System.out.println("Number is positive");
+			 }
+			}
+
+	}
