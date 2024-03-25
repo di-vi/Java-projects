@@ -1,0 +1,36 @@
+package myjava;
+
+import java.util.Scanner;
+
+public class Palindrome {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Enter a string: ");
+		Scanner sca = new Scanner(System.in);
+		String s = sca.nextLine();
+		
+		char word;
+		String rev ="";
+		
+		int len = s.length();
+		len = len-1;
+		for (int i = len;i>=0;i--)
+		{
+			word = s.charAt(i);
+		    rev = rev + word;
+		}
+		
+		System.out.println(rev);
+		if(s.equals(rev))
+		{
+		    System.out.println("It is a palindrome");
+		}
+		else
+		{
+			System.out.println("It is not a palindrome");
+		}
+
+	}
+
+}
