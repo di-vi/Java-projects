@@ -1,0 +1,25 @@
+package myjava;
+
+import java.util.Scanner;
+
+public class ReverseString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Enter a string to reverse: ");
+		Scanner sca = new Scanner(System.in);
+		String s = sca.nextLine();
+		
+		int len = s.length();
+		len = len-1;
+		for (int i = len;i>=0;i--)
+		{
+			System.out.print(s.charAt(i));
+		    
+		}
+		
+		
+	
+	}
+
+}
