@@ -1,0 +1,32 @@
+package myjava;
+
+import java.util.Scanner;
+
+public class PrimeNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        int n,i=2;
+        boolean value = false;
+		
+		
+        System.out.println("Enter number: ");
+		
+		Scanner sc = new Scanner(System.in);
+		
+		n = sc.nextInt();
+		
+		while ((n%i) != 0)
+		{
+			
+			value = true;
+			i++;
+		}	
+	    if(value == true)
+	    	System.out.println("It is a prime number");
+	    else
+	    	System.out.println("Not a prime number");
+
+	}
+
+}
